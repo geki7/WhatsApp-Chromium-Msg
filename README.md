@@ -11,4 +11,4 @@ I wanted to create a program that would automatically send a message to a specif
 	I used PuppeteerSharp to open WhatsApp Web and locate the elements I needed, such as the contact search box. By typing in the contact name, I could find and click on the correct conversation.
  	Once in the chat, I used the Keyboard.TypeAsync method to simulate typing my message directly, then sent it with a simulated "Enter" press.
 
-4. **Handling Timing and Stability:** I added Task.Delay calls at crucial points to make sure the browser had enough time to load each element and execute the commands. This ensured the script didn’t close the browser  	     before the message was sent, leading to a smoother, error-free automation.
+4. **Handling Timing and Stability:** I added Task.Delay calls at crucial points to make sure the browser had enough time to load each element and execute the commands. This ensured the script didn’t close the browser  	     	before the message was sent, leading to a smoother, error-free automation.
